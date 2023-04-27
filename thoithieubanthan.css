@@ -1,0 +1,141 @@
+body{
+    background-color: white;
+    font-family: system-ui;
+}
+.container{
+    background-color: rgb(106, 248, 241);
+    width:1000px;
+    max-width: 100%;
+    margin:auto;
+    padding:50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+   grid-template-columns: 35% 60%;
+   column-gap: 5%; 
+   row-gap: 30px;
+}
+.contact button{
+    background-color: rgb(106, 208, 241);
+    border: none;
+}
+.contact li a {
+    text-decoration: none;
+} 
+.avatar img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.avatar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.name{
+    padding-left: 30px;
+    border-left:1px solid #000;
+}
+.name .contact{
+    padding:0;
+    list-style: none;
+}
+.name .contact span{
+    display: inline-block;
+    background-color: #000;
+    width: 50px;
+    height:20px;
+    color:#fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: small;
+    margin-right: 20px;
+}
+.name .contact li{
+    padding:10px 0;
+    transform: translate(-55px);
+    background-color: rgb(106, 208, 241);
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+} 
+.item .abc{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.experience .abc a{
+    text-decoration: none;
+}
+.item .abc{
+    text-decoration: none;
+}
+.item .abc:hover{
+    background-color: #b2744c;
+    color: white;
+}
+h2{
+    padding:0;
+    margin: 0 0 20px 0;
+}
+.intro{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+.experience{
+    text-align: right;
+}
+.experience h4{
+    margin:20px 0 10px;
+}
+
+.project{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+}
+.project .web{
+    color: rgb(106, 208, 241);
+    padding:10px 0;
+}
+.container .project .web{
+    background-color: greenyellow;
+    border: none;
+}
+.project .location{
+    font-weight: 500px;
+    padding-bottom:10px;
+}
+.clicks button{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.clicks button:hover{
+    background-color: #b2744c;
+    color: white;
+}
+.project .clicks button a{
+    text-decoration: none;
+}

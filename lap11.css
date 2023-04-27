@@ -1,0 +1,86 @@
+body {
+    background-color: #a2f771;
+    padding: 45px 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  .avatar {
+    border-radius: 100px;
+  }
+  .button a{
+    color: black;
+
+  
+  }
+  h3 {
+    font-family: "Lobster", cursive;
+    margin: 10px 0 8px 0;
+  }
+  
+  p {
+    font-family: system-ui;
+    width: 450px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+    }
+  }
+  .button a{
+    text-decoration:none;
+  }
+  .button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+
+  }
+  
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+  .lh{
+    text-align: left;
+    color: black;
+    font-size: 16px;}
+
+.footer{
+    background-color: darkgoldenrod;
+    border: #ccc 1px solid;
+    width: 98%;
+    margin: 0px auto; 
+}
+.lspt{
+    color: orangered;
+    font-size: 40px;
+    font-weight: bold;
+ 
+}
+.hi{
+  margin-left:70%;
+  margin-top: 10px;
+}
+.avatar{
+  margin-top: -280px;
+}
+.h5{
+margin-top: -100px;
+}
+.bala {
+  width: 50%;
+  height: auto;
+ 
+  margin-top: 100px;
+}
